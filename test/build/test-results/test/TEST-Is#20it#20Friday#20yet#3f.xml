@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Is it Friday yet?" tests="2" skipped="0" failures="1" errors="0" timestamp="2019-12-01T19:14:13" hostname="EnriquesMBP458" time="0.02">
+  <properties/>
+  <testcase name="Sunday isn't Friday" classname="Is it Friday yet?" time="0.018">
+    <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.StepDefs.i_should_be_told(StepDefs.java:30)
+	at ✽.Assert day(file:src/test/resources/cucumber/is_it_sunday_yet.feature:7)
+</failure>
+  </testcase>
+  <testcase name="Simple comparation" classname="Is it Friday yet?" time="0.001"/>
+  <system-out><![CDATA[Today is Sunday
+I ask whether it's Friday yet
+Assert day
+two number 1 2
+compare these numbers
+assert these numbers are not equals
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
