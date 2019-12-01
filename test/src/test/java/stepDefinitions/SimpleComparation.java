@@ -5,6 +5,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class SimpleComparation {
     private int firstNumber;
@@ -28,5 +29,11 @@ public class SimpleComparation {
     public void assert_these_numbers_are_not_equals() {
         System.out.println("assert these numbers are not equals");
         assertFalse(this.areEquals);
+    }
+
+    @Then("assert these numbers are equals")
+    public void assert_these_numbers_are_equals() {
+        System.out.println("assert these numbers are equals");
+        assertTrue(this.areEquals);
     }
 }

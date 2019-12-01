@@ -7,6 +7,11 @@
     Then Assert day
 
   Scenario: Simple comparation
-    Given two number 11 1
+    Given two number 21 1
     When compare these numbers
     Then assert these numbers are not equals
+
+  Scenario: Simple comparation2
+    Given two number 1 1
+    When compare these numbers
+    Then assert these numbers are equals
