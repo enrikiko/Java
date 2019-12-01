@@ -4,7 +4,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
 public class SimpleComparation {
@@ -21,7 +20,7 @@ public class SimpleComparation {
 
     @When("compare these numbers")
     public void compare_these_numbers() {
-        System.out.println("compare these numbers");
+        System.out.println("compare " + this.firstNumber + " and " + this.secondNumber);
         this.areEquals = this.firstNumber == this.secondNumber;
     }
 
