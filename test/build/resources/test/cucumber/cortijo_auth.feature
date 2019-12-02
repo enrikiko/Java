@@ -4,7 +4,6 @@
     Given a cortijo web app running
     When I create a new User
     Then the User is successfully created
-    Then the User is able to authorize
 
 
 

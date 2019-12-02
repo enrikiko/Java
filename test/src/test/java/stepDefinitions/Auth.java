@@ -27,6 +27,7 @@ public class Auth {
     public void the_User_is_successfully_created() throws InterruptedException {
         TimeUnit.SECONDS.sleep(1);
         assertTrue(Cortijo.driver.findElement(By.id("userHasBeenCreated")).isDisplayed());
+        Cortijo.driver.quit();
     }
 
 }

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cortijo Web App Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-02T22:23:55" hostname="Enriques-MacBook-Pro-458.local" time="29.0">
+<testsuite name="Cortijo Web App Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-12-02T22:48:29" hostname="Enriques-MacBook-Pro-458.local" time="29.161">
   <properties/>
-  <testcase name="Test switch autoOff mock" classname="Cortijo Web App Test" time="17.598"/>
-  <testcase name="Test switch on mock" classname="Cortijo Web App Test" time="11.402"/>
+  <testcase name="Test switch autoOff mock" classname="Cortijo Web App Test" time="17.277"/>
+  <testcase name="Test switch on mock" classname="Cortijo Web App Test" time="11.884"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 19003
+  <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 20541
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Dec 02, 2019 11:23:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 02, 2019 11:48:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 16630
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 5977
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Dec 02, 2019 11:24:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 02, 2019 11:48:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
