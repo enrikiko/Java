@@ -12953,3 +12953,7 @@ Sun Jul  5 16:11:44 UTC 2020
 Remove game individual score notice
  
  
+Sun Jul  5 16:11:51 UTC 2020
+Unit require beat early fund as human beat
+ 
+ 
