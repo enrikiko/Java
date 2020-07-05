@@ -12949,3 +12949,7 @@ Sun Jul  5 16:11:38 UTC 2020
 Beyond drop end remove commercial blood world generation
  
  
+Sun Jul  5 16:11:44 UTC 2020
+Remove game individual score notice
+ 
+ 
